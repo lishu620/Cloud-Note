@@ -7,7 +7,7 @@ tags: [ProXmox, FnOS]
 keywords: [ProXmox, FnOS]
 ---
 
-本文章是在ProXmox上安装FnOS作为Nas主系统的文档
+ProXmox安装FnOS
 
 <!-- truncate -->
 
