@@ -7,7 +7,7 @@ tags: [_1ishuSys]
 keywords: [_1ishuSys]
 ---
 
-我编辑操作系统第一步：在屏幕上输出`Hello _i1shuSys`
+操作系统：在屏幕上输出`Hello _i1shuSys`
 
 <!-- truncate -->
 
