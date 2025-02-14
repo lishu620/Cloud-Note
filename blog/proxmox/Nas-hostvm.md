@@ -7,7 +7,7 @@ tags: [ProXmox, 虚拟化]
 keywords: [ProXmox, 虚拟化]
 ---
 
-这里记录了Nas搭建过程中的主机虚拟化ProXmox搭建
+VMWare安装ProXmox
 
 <!-- truncate -->
 
