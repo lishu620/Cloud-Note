@@ -107,7 +107,7 @@ const config: Config = {
         },
       ],
       copyright: `
-        <p>Copyright © 2020 - ${new Date().getFullYear()} mlishu. | Built with Docusaurus.</p>
+        <p>Copyright © 2024 - ${new Date().getFullYear()} mlishu. | Built with Docusaurus.</p>
         `,
     },
     algolia: {
