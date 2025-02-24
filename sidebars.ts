@@ -15,6 +15,7 @@ const sidebars: SidebarsConfig = {
         'skill/cloud-note/cloud-note-console',
         'skill/cloud-note/cloud-note-add-note',
         'skill/cloud-note/cloud-note-explain',
+        'skill/cloud-note/cloud-note-markdown-syntax',
       ],
     },
     {

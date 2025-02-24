@@ -4,7 +4,6 @@ slug: /cloud-note-add-note
 title: 如何添加笔记
 authors: mlishu
 ---
-
 ## 1.创建markdown文件
 
 在需要配置的地方创建markdown文件
@@ -12,11 +11,15 @@ authors: mlishu
 固定格式头
 
 ```markdown
+---
 id: cloud-note-add-note
 slug: /cloud-note-add-note
 title: 如何添加笔记
 authors: mlishu
+---
 ```
+
+> 注意：对于笔记而言，格式头前后行需要添加 `---`作为识别
 
 在这里我们主要需要记住ID用于识别
 
@@ -24,9 +27,9 @@ authors: mlishu
 
 找到根目录下的sidebars.ts文件
 
-在本项目中我创建了`skill`和`tools`两个页面，前者用于添加笔记文件，后者则是工具页面中的内容
+在本项目中我创建了 `skill`和 `tools`两个页面，前者用于添加笔记文件，后者则是工具页面中的内容
 
-这里我选择提供一种`skill`方案
+这里我选择提供一种 `skill`方案
 
 ```ts
 {
@@ -43,8 +46,6 @@ authors: mlishu
     },
 ```
 
-在第一部中的ID需要添加到2中的ID或`item`中，但是必须与ID完全匹配
+在第一部中的ID需要添加到2中的ID或 `item`中，但是必须与ID完全匹配
 
-## #markdown编辑工具
-
-在这里我使用的编辑工具为：**Typora**
+>  编辑工具为：**Typora / VSCode+插件**
