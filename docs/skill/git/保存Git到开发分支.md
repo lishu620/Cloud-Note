@@ -20,3 +20,17 @@ keywords: [git]
 ### 切换分支
 
 在Git Graph中切换到Development分支
+
+![1740414051618](image/保存Git到开发分支/1740414051618.png)
+
+这样就是在main分支
+
+右键 `Development`选择 `Checkout Branch`切换到开发分支，如下图
+
+![1740414138687](image/保存Git到开发分支/1740414138687.png)
+
+这样就切换到了 `Development`分支
+
+### 提交代码
+
+在Git提交列表输入分支名，提交到本地Git仓库
