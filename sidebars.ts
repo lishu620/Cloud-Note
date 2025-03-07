@@ -109,7 +109,7 @@ const sidebars: SidebarsConfig = {
       ]
     },
     {
-      label: 'ensp',
+      label: '路由与交换',
       type: 'category',
       link: { type: 'generated-index' },
       items: [
