@@ -1,14 +1,15 @@
 ---
 title: Nas安装:飞牛OS
 slug: Nas-Install
-date: 2025-3.13
+date: 2025-3-13
 authors: mlishu
 tags: [FnOS]
 keywords: [FnOS]
 ---
 安装FnOS
 
-<!-- truncate --
+<!-- truncate -->
+
 
 ## 1. 下载安装镜像
 
