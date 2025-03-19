@@ -12,17 +12,9 @@ keywords:
   - Typescript
   - HTTP
 ---
-
 本页面为个人学习中所涉及相关技术栈的笔记汇总，包含但不限于
 
 - [云笔记配置](/docs/cloud-note)
 - [云笔记部署](/docs/docusaurus-guides)
-- Web
+- 路由与交换
 - 前端
-- 后端
-- Vue
-- React
-- JavaScript & TypeScript
-- Node
-- 安卓
-- HTTP
