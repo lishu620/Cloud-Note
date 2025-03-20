@@ -1,7 +1,7 @@
 ---
 title: 华为 Fusion Access 云桌面部署
 slug: hw-fusion-access
-date: 2025-3.19
+date: 2025-3-19
 authors: mlishu
 tags: [云计算]
 keywords: [cloud-computer]
