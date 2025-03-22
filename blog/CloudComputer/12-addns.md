@@ -1,16 +1,16 @@
 ---
 title: 【Horizon】第2章-AD和DNS配置
 slug: horizon-addns
-date: 2025-3-21
+date: 2025-3-22
 authors: mlishu
 tags: [云计算, VMware, Horizon环境]
 keywords: [cloud-computer, VMware, Horizon环境]
 ---
-[Horizon]第2章-AD和DNS配置
+【Horizon】第2章-AD和DNS配置
 
 <!-- truncate -->
 
-这里可以链接我之前的文章：[配置Windows AD](/blog/config-windows-ad)
+这里可以链接我之前的文章：[配置Windows Server 2022](/blog/config-windows-server)
 
 ## 配置记录
 
