@@ -1,5 +1,5 @@
 ---
-title: 【Horizon】第三章-配置Windows AD
+title: 【Horizon】第3章-配置Windows AD
 slug: config-windows-ad
 date: 2025-3-22
 authors: mlishu

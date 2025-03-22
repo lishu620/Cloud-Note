@@ -14,10 +14,11 @@ https://blog.csdn.net/little_startoo/article/details/133888900?ops_request_misc=
 
 ## DNS映射
 
-| 主机名    | 域名            | 外网IP      | 内网IP      |
-| --------- | --------------- | ----------- | ----------- |
-| Nadl-MWS1 | mws1.nadl.local | 10.59.12.51 | 172.16.1.66 |
-| Nadl-MWS2 | mws2.nadl.local | 10.59.12.52 | 172.16.1.67 |
+| 主机名       | 域名               | 外网IP      | 内网IP      |
+| ------------ | ------------------ | ----------- | ----------- |
+| Nadl-MWS1    | mws1.nadl.local    | 10.59.12.51 | 172.16.1.66 |
+| Nadl-MWS2    | mws2.nadl.local    | 10.59.12.52 | 172.16.1.67 |
+| Nadl-Storage | storage.nadl.local | 10.59.12.8  | 172.16.66.5 |
 
 ## 搭建流程
 
