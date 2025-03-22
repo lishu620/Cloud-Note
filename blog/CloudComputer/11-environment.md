@@ -1,5 +1,5 @@
 ---
-title: Horizon-第1章-环境介绍
+title: 【Horizon】第1章-环境介绍
 slug: horizon-environment
 date: 2025-3-21
 authors: mlishu
