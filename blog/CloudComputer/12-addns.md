@@ -1,5 +1,5 @@
 ---
-title: [Horizon]第2章-AD和DNS配置
+title: Horizon-第2章-AD和DNS配置
 slug: horizon-addns
 date: 2025-3-21
 authors: mlishu

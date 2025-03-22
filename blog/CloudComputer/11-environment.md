@@ -1,10 +1,10 @@
 ---
-title: [Horizon]第1章-环境介绍
+title: Horizon-第1章-环境介绍
 slug: horizon-environment
 date: 2025-3-21
 authors: mlishu
-tags: [云计算, VMware, Horizon环境]
-keywords: [cloud-computer, VMware, Horizon环境]
+tags: [云计算, Horizon环境]
+keywords: [cloud-computer, Horizon环境]
 ---
 [Horizon]第1章-环境介绍
 
