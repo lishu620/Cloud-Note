@@ -12,6 +12,10 @@ keywords: [cloud-computer, Horizon环境]
 
 https://blog.csdn.net/little_startoo/article/details/133888900?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522d6253fa40332e30965c39084fea64209%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fblog.%2522%257D&request_id=d6253fa40332e30965c39084fea64209&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~blog~first_rank_ecpm_v1~rank_v31_ecpm-14-133888900-null-null.nonecase&utm_term=Horizon&spm=1018.2226.3001.4450
 
+## 配置拓扑
+
+![1742722284619](image/11-environment/1742722284619.png)
+
 ## DNS映射
 
 | 主机名       | 域名               | 外网IP      | 内网IP      |
@@ -19,6 +23,7 @@ https://blog.csdn.net/little_startoo/article/details/133888900?ops_request_misc=
 | Nadl-MWS1    | mws1.nadl.local    | 10.59.12.51 | 172.16.1.66 |
 | Nadl-MWS2    | mws2.nadl.local    | 10.59.12.52 | 172.16.1.67 |
 | Nadl-Storage | storage.nadl.local | 10.59.12.8  | 172.16.66.5 |
+| Nadl-SQL     | sql.nadl.local     |             | 172.16.1.60 |
 
 ## 搭建流程
 
