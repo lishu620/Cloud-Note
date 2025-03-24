@@ -1,10 +1,10 @@
 ---
-title: 配置Windows AD
-slug: config-windows-ad
+title: 配置Windows Server 2022
+slug: config-windows-server
 date: 2025-3-19
 authors: mlishu
-tags: [云计算, Windows]
-keywords: [cloud-computer, Windows]
+tags: [Windows]
+keywords: [Windows]
 ---
 配置Windows AD
 
@@ -54,6 +54,4 @@ irm massgrave.dev/get | iex
 
 点击添加角色和功能
 
-在“角色”对话框中，勾选“Active Directory 域服务”、“DHCP服务器”、“DNS服务器”，在弹出的对话框中单击“添加功能”，单击“下一步”。
-
-在“功能”对话框中，勾选“Windows Server Backup”，
+在“角色”对话框中，勾选“Active Directory 域服务”、“DNS服务器”，在弹出的对话框中单击“添加功能”，单击“下一步”
