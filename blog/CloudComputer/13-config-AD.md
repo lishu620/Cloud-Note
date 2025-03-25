@@ -3,12 +3,14 @@ title: 【Horizon】第3章-配置Windows AD
 slug: config-windows-ad
 date: 2025-3-22
 authors: mlishu
-tags: [云计算, Windows]
-keywords: [cloud-computer, Windows]
+tags: [云计算, Windows, Horizon环境]
+keywords: [cloud-computer, Windows, Horizon]
 ---
 【Horizon】第三章-配置Windows AD
 
 <!-- truncate -->
+
+前提条件：[【Horizon】第2章-AD和DNS配置](/blog/horizon-addns)
 
 选择 `Active Directory用户和计算机`
 
