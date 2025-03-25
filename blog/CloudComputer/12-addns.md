@@ -4,7 +4,7 @@ slug: horizon-addns
 date: 2025-3-22
 authors: mlishu
 tags: [云计算, VMware, Horizon环境]
-keywords: [cloud-computer, VMware, Horizon环境]
+keywords: [cloud-computer, VMware, Horizon]
 ---
 【Horizon】第2章-AD和DNS配置
 
@@ -169,6 +169,8 @@ NetBIOS名称加用户名
 ### **验证**配置
 
 备域控制器，加完域之后，这时我们也可以使用主域控制器的域管理员登录到这个从域服务器上
+
+链接文章：[【Horizon】第3章-配置Windows AD](/blog/config-windows-ad)
 
 ## 后文解释
 
