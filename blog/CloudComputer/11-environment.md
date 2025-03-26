@@ -20,14 +20,16 @@ keywords: [cloud-computer, Horizon环境]
 
 ## 主机、IP、DNS映射表
 
-| 主机名            | 域名               | 外网IP      | 内网IP      |
-| ----------------- | ------------------ | ----------- | ----------- |
-| Nadl-VCSA         | vcsa.nadl.local    | 10.59.12.50 | 172.16.1.1  |
-| Nadl-ADDNS-Master | adm.nadl.local     | 10.59.12.51 | 172.16.1.66 |
-| Nadl-ADDNS-Slave  | ads.nadl.local     | 10.59.12.52 | 172.16.1.67 |
-| Nadl-OMV          | storage.nadl.local | 10.59.12.86 | 172.16.1.58 |
-| Nadl-SQL          | sql.nadl.local     |             | 172.16.1.60 |
-| Horizon-SQL       |                    |             | 172.16.1.55 |
+| 主机名         | 域名               | 外网IP      | 内网IP      |
+| -------------- | ------------------ | ----------- | ----------- |
+| Nadl-VCSA      | vcsa.nadl.local    | 10.59.12.50 | 172.16.1.1  |
+| Horizon-SQL    |                    |             | 172.16.1.55 |
+| Nadl-OMV       | storage.nadl.local | 10.59.12.55 | 172.16.1.58 |
+| Nadl-DB-Master | dbm.nadl.local     |             | 172.16.1.61 |
+| Nadl-DB-Slave  | dbs.nadl.local     |             | 172.16.1.62 |
+| Nadl-SO        | so.nadl.local      |             | 172.16.1.63 |
+| Nadl-AD-Master | adm.nadl.local     | 10.59.12.51 | 172.16.1.66 |
+| Nadl-AD-Slave  | ads.nadl.local     | 10.59.12.52 | 172.16.1.67 |
 
 ## 搭建流程
 
