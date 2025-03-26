@@ -10,19 +10,24 @@ keywords: [cloud-computer, Horizon环境]
 
 <!-- truncate -->
 
+## 提示
+
+不要在域控制器上安装Horizon全部组件
+
 ## 拓扑图
 
 ![1742722284619](image/11-environment/1742722284619.png)
 
 ## 主机、IP、DNS映射表
 
-| 主机名      | 域名               | 外网IP      | 内网IP      |
-| ----------- | ------------------ | ----------- | ----------- |
-| Nadl-MWS1   | mws1.nadl.local    | 10.59.12.51 | 172.16.1.66 |
-| Nadl-MWS2   | mws2.nadl.local    | 10.59.12.52 | 172.16.1.67 |
-| Nadl-OMV    | storage.nadl.local | 10.59.12.86 | 172.16.1.58 |
-| Nadl-SQL    | sql.nadl.local     |             | 172.16.1.60 |
-| Horizon-SQL |                    |             | 172.16.1.55 |
+| 主机名            | 域名               | 外网IP      | 内网IP      |
+| ----------------- | ------------------ | ----------- | ----------- |
+| Nadl-VCSA         | vcsa.nadl.local    | 10.59.12.50 | 172.16.1.1  |
+| Nadl-ADDNS-Master | adm.nadl.local     | 10.59.12.51 | 172.16.1.66 |
+| Nadl-ADDNS-Slave  | ads.nadl.local     | 10.59.12.52 | 172.16.1.67 |
+| Nadl-OMV          | storage.nadl.local | 10.59.12.86 | 172.16.1.58 |
+| Nadl-SQL          | sql.nadl.local     |             | 172.16.1.60 |
+| Horizon-SQL       |                    |             | 172.16.1.55 |
 
 ## 搭建流程
 
