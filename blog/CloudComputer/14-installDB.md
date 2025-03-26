@@ -1,7 +1,7 @@
 ---
 title: 【Horizon】第4章-搭建SQL
 slug: config-sql
-date: 2025-3-23
+date: 2025-3-24
 authors: mlishu
 tags: [云计算, Windows, SQL Server, Horizon环境]
 keywords: [cloud-computer, Windows, SQL Server, Horizon]
