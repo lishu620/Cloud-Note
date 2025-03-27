@@ -25,7 +25,7 @@ keywords: [cloud-computer, Horizon环境]
 | Nadl-VCSA      | vcsa.nadl.local | 10.59.12.50 | 172.16.1.1  |
 | Horizon-SQL    |                 |             | 172.16.1.55 |
 | Nadl-OMV       |                 | 10.59.12.55 | 172.16.1.58 |
-| Nadl-Win10C    |                 | 10.59.12.60 | 172.16.1.59 |
+| Nadl-Win10C    |                 | 10.59.12.60 | 172.16.1.60 |
 | Nadl-DB-Master |                 |             | 172.16.1.61 |
 | Nadl-DB-Slave  |                 |             | 172.16.1.62 |
 | Nadl-SO        |                 |             | 172.16.1.63 |
