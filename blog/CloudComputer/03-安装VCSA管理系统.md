@@ -12,9 +12,11 @@ keywords: [cloud-computer, VMware]
 
 ## 准备操作
 
-安装系统版本：`VMware-VCSA-all-8.0.0-20519528.iso`
+由于VCSA主机安装在EXSI主机上，因此要求[安装EXSI底层系统](/blog/vm-exsi-8)
 
-安装服务器：`EXSI8`
+安装版本：`VMware-VCSA-all-8.0.0-20519528.iso`
+
+底层服务器：`VMware EXSI8`
 
 ## 安装系统
 
@@ -22,15 +24,17 @@ keywords: [cloud-computer, VMware]
 
 ![1742396563810](image/05-installVCSA/1742396563810.png)
 
-在右上角可以修改语言
+> 在右上角可以修改语言
 
-选择安装
+选择 `安装`，进入安装程序
 
 ![1742396589119](image/05-installVCSA/1742396589119.png)
 
-正常输入第三步和第四步的设置
+输入第三步和第四步的设置
 
-这里我选择微型安装+精简磁盘服务
+这里我选择 `微型安装`+`精简磁盘服务`
+
+后续需要配置 `vCenter Server`的网络
 
 ![1742396675401](image/05-installVCSA/1742396675401.png)
 

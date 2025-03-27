@@ -3,8 +3,8 @@ title: 【Horizon】第1章-环境介绍
 slug: horizon-environment
 date: 2025-3-21
 authors: mlishu
-tags: [云计算, Horizon环境]
-keywords: [cloud-computer, Horizon环境]
+tags: [云计算, Horizon]
+keywords: [cloud-computer, Horizon]
 ---
 [Horizon]第1章-环境介绍
 
@@ -29,9 +29,9 @@ keywords: [cloud-computer, Horizon环境]
 | Nadl-DB-Master |                 |             | 172.16.1.61 |
 | Nadl-DB-Slave  |                 |             | 172.16.1.62 |
 | Nadl-SO        |                 |             | 172.16.1.63 |
+| vdesktop       |                 | 10.59.12.64 | 172.16.1.64 |
 | Nadl-AD-Master | adm.nadl.local  | 10.59.12.51 | 172.16.1.66 |
 | Nadl-AD-Slave  | ads.nadl.local  | 10.59.12.52 | 172.16.1.67 |
-| Nadl-SQL       | sql.nadl.local  |             | 172.16.1.60 |
 
 ## 搭建流程
 
