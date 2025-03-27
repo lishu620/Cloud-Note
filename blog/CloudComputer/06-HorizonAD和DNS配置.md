@@ -3,30 +3,28 @@ title: 【Horizon】第2章-AD和DNS配置
 slug: horizon-addns
 date: 2025-3-22
 authors: mlishu
-tags: [云计算, VMware, Horizon环境]
-keywords: [cloud-computer, VMware, Horizon]
+tags: [云计算, Windows, Horizon]
+keywords: [cloud-computer, Windows, Horizon]
 ---
 【Horizon】第2章-AD和DNS配置
 
 <!-- truncate -->
 
-这里可以链接我之前的文章：[配置Windows Server 2022](/blog/config-windows-server)
+首先需要安装Windows Server系统，可以通过下面的链接访问
 
-## 配置记录
+[配置Windows Server 2022](/blog/config-windows-server)
 
-这里我使用的根域为:`nadl.local`属于本地域名
+## 安装功能
 
-## 安装流程
+修改计算机名为：`Nadl-AD-Master`和 `Nadl-AD-Slave`
 
-这里我们默认安装好了两台Windows Server 2022
+在进行配置之前，首先要保证主从服务器NTP时钟同步
 
-修改计算机名为：Nadl-MWS1和Nadl-MWS2
-
-首先要保证主从服务器NTP时钟同步
-
-在主从服务器中添加AD域、DNS功能
+在主从服务器中添加 `AD域控制器`和 `DNS`
 
 ## 配置主从DNS
+
+在这一步之前，建议先配置主从AD域，会自动创建DNS主区域
 
 ### 配置主DNS
 

@@ -1,12 +1,12 @@
 ---
-title: 安装VMware EXSI 8
+title: 安装VMware EXSI 8 底层系统
 slug: vm-exsi-8
 date: 2025-3-21
 authors: mlishu
 tags: [云计算, VMware]
 keywords: [cloud-computer, VMware]
 ---
-安装VMware EXSI 8
+安装VMware EXSI 8 底层系统
 
 <!-- truncate -->
 
