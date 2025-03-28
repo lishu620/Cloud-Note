@@ -1,18 +1,14 @@
 ---
-title: 搭建云存储-OMV
+title: 搭建OMV存储
 slug: config-omv
 date: 2025-3-23
 authors: mlishu
 tags: [云计算, 存储]
 keywords: [cloud-computer, storage]
 ---
-搭建云存储-OMV
+搭建OMV存储
 
 <!-- truncate -->
-
-## 资源配置
-
-![1742716027537](image/09-storage-omv/1742716027537.png)
 
 ## 系统安装
 
@@ -20,21 +16,21 @@ keywords: [cloud-computer, storage]
 
 ![1742716047447](image/09-storage-omv/1742716047447.png)
 
-选择中文语言模式
+选择 `Chinese (Simplified) - 中文(简体)` 语言
 
 ![1742716071721](image/09-storage-omv/1742716071721.png)
 
-地区选择中国大陆
+地区选择为 `中国`
 
 ![1742716102025](image/09-storage-omv/1742716102025.png)
 
 后面的键盘模式默认就行了
 
-配置主机名，这里自己修改就好了
+配置主机名，这里自行配置
 
 ![1742716158520](image/09-storage-omv/1742716158520.png)
 
-如果是自己使用的话，可以不需要配置域名
+如果是自己使用的话，可以不需要配置域名，使用 `local`或者 `localhost`
 
 ![1742716207724](image/09-storage-omv/1742716207724.png)
 
@@ -42,7 +38,7 @@ keywords: [cloud-computer, storage]
 
 ![1742716241355](image/09-storage-omv/1742716241355.png)
 
-之后确认密码
+确认密码
 
 ![1742716259375](image/09-storage-omv/1742716259375.png)
 
@@ -56,15 +52,15 @@ keywords: [cloud-computer, storage]
 
 ![1742716709689](image/09-storage-omv/1742716709689.png)
 
-重启就行
+配置完成之后继续下一步配置
 
 ![1742716738775](image/09-storage-omv/1742716738775.png)
 
 ## 系统配置
 
-找到OMV的IP地址
+使用Bash进入OMV，查询OMV的IP地址
 
-在网页中输入
+在网页中输入查询到的IP地址
 
 ![1742716899258](image/09-storage-omv/1742716899258.png)
 
