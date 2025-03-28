@@ -1,20 +1,24 @@
 ---
-title: 【Horizon】第6章-安装agent服务器
+title: 【Horizon】第6章-安装Agent服务器
 slug: horizon-agent
 date: 2025-3-27
 authors: mlishu
 tags: [云计算, Horizon环境]
 keywords: [cloud-computer, Horizon环境]
 ---
-【Horizon】第6章-安装agent服务器
+【Horizon】第6章-安装Agent服务器
 
 <!-- truncate -->
 
-## 配置主机
+## VDI终端主机配置
 
 Horizon-Agent需要在终端VDI中安装
 
-### 软件安装
+VDI中需要安装 `VMware Tools`和 `VMware Horizon Agent`
+
+`VMware Tools`的安装由 `EXSI主机`或 `VCSA管理安装`
+
+### VMware Horizon Agent安装
 
 软件版本：
 
@@ -53,7 +57,6 @@ Horizon-Agent需要在终端VDI中安装
 ![1743064387670](image/17-installagent/1743064387670.png)
 
 选择手动桌面池。
-
 
 手动桌面池：相当于独立的电脑，每次的对虚拟机的修改都生效。
 

@@ -53,3 +53,49 @@ Disk：120GiB
 ![1743091646868](image/11-Fusion安装Compute底层/1743091646868.png)
 
 后面全部OK就行了
+
+## 系统配置
+
+在网页输入 `https://172.16.2.1:8443`进入网页管理
+
+![1743128793395](image/11-Fusion安装Compute底层/1743128793395.png)
+
+同意协议继续
+
+默认账号：admin
+
+默认密码：IaaS@PORTAL-CLOUD8!
+
+修改密码
+
+![1743129377439](image/11-Fusion安装Compute底层/1743129377439.png)
+
+之后就直接进入主页
+
+![1743129495847](image/11-Fusion安装Compute底层/1743129495847.png)
+
+### 添加集群
+
+![1743133293394](image/11-Fusion安装Compute底层/1743133293394.png)
+
+![1743133309490](image/11-Fusion安装Compute底层/1743133309490.png)
+
+![1743133325132](image/11-Fusion安装Compute底层/1743133325132.png)
+
+![1743133332163](image/11-Fusion安装Compute底层/1743133332163.png)
+
+### 添加节点
+
+这里需要先[安装节点主机](/blog/hw-fusion-computecna)
+
+点击资源池
+
+![1743131340250](image/11-Fusion安装Compute底层/1743131340250.png)
+
+选择添加主机，同时配置IP地址信息
+
+![1743131400632](image/11-Fusion安装Compute底层/1743131400632.png)
+
+确认配置
+
+![1743131412675](image/11-Fusion安装Compute底层/1743131412675.png)
