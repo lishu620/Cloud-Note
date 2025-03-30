@@ -1,5 +1,5 @@
 ---
-id: 01-vrp-system
+id: 1-1-vrp-system
 slug: vrp-system
 title: 华为VRP系统基本操作
 date: 2025-2-27

@@ -1,7 +1,7 @@
 ---
-id: 04-ospf-onlyarea
-slug: ospf-onlyarea
-title: OSPF单区域配置
+id: 3-1-ospf-single-area-configuration
+slug: ospf-single-area-configuration
+title: 3-1-OSPF单区域配置
 date: 2025-3-13
 authors: m1ishu
 tags: [eNSP]

@@ -1,15 +1,15 @@
 ---
-id: 05-ospf-morearea
-slug: ospf-morearea
-title: OSPF多区域配置
-date: 2025-3-20
+id: 3-3-ospf-advanced-configuration
+slug: ospf-advanced-configuration
+title: 3-3-OSPF高级配置
+date: 2025-3-30
 authors: m1ishu
 tags: [eNSP]
 keywords: [eNSP]
 ---
 ## 拓朴图
 
-![1742430698608](image/05-OSPF多区域配置/1742430698608.png)
+![1743325309811](image/3-3-OSPF高级配置/1743325309811.png)
 
 ## 路由规划
 
@@ -70,6 +70,7 @@ network 10.59.30.0 0.0.0.255
 q
 area 2
 network 10.59.40.0 0.0.0.255
+nssa
 ```
 
 ### [AR5]
@@ -77,10 +78,10 @@ network 10.59.40.0 0.0.0.255
 ```
 ip route-static 172.16.0.0 255.255.224.0 10.59.100.6
 ospf 1 route-id 5.5.5.5
+import-route static
 area 2
 network 10.59.40.0 0.0.0.255
-q
-import-route static
+nssa
 ```
 
 ### [AR6]
