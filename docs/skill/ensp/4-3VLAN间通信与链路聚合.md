@@ -1,5 +1,5 @@
 ---
-id: 4-1-Inter-VLAN-communication-and-link-aggregation
+id: 4-3-Inter-VLAN-communication-and-link-aggregation
 slug: Inter-VLAN-communication-and-link-aggregation
 title: 4-3：VLAN间通信与链路聚合
 date: 2025-4-10
