@@ -139,7 +139,7 @@ active region-configuration
 
 ```
 int vlanif 3
-ip add 10.59.3.254 24
+ip add 10.59.3.253 24
 ```
 
 #### [LSW2]
