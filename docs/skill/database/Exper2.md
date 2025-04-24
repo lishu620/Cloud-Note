@@ -48,6 +48,12 @@ INSERT INTO Course VALUES
 ('C005', 'JAVA', 'C004', '专业技术', 48, 3, 4, NULL),
 ('R001', '软件工程', 'C005', '专业基础', 48, 3, 6, NULL);
 
+-- 插入Teacher表数据
+INSERT INTO Teacher VALUES
+('20051303', '王苹', '女', '副教授', '1973-09-21', '2005-07-01', 'SE'),
+('20061307', '杨钢', '男', '讲师', '1979-03-04', '2006-07-16', 'SE'),
+('19951313', '秦海东', '男', '副教授', '1970-12-08', '1995-07-25', 'SE');
+
 -- 插入SC表数据
 INSERT INTO SC (Sno, Cno, Grade) VALUES
 ('20121323001', 'C001', 93),
@@ -77,10 +83,10 @@ UPDATE Course SET Ccredit = 5 WHERE Cname = '数据结构';
 UPDATE SC SET Grade = Grade * 0.85 WHERE Grade IS NOT NULL;
 
 -- 3) 将所有女生选修的课程成绩加1分
-UPDATE SC 
-SET Grade = Grade + 1 
-WHERE Grade IS NOT NULL 
-AND Sno IN (SELECT Sno FROM Student WHERE Ssex = '女');
+UPDATE SC
+SET Grade = Grade + 1
+WHERE Grade IS NOT NULL
+AND Sno IN (SELECT Sno FROM Student WHERE Sex = '女');
 
 -- 4) 将选修了"程序设计基础"课程的学生课程成绩均提高5%
 UPDATE SC
