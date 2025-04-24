@@ -1,15 +1,11 @@
 ---
-title: 安装VMware EXSI 8 底层系统
-slug: vm-exsi-8
+title: 【VMware】安装EXSI8底层系统
+slug: Install-EXSI8-underlying-system
 date: 2025-3-21
 authors: mlishu
 tags: [云计算, VMware]
 keywords: [cloud-computer, VMware]
 ---
-安装VMware EXSI 8 底层系统
-
-<!-- truncate -->
-
 ## 准备工作
 
 EXSI版本：`VMware-VMvisor-Installer-8.0U2-22380479.x86_64.iso`

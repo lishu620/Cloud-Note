@@ -1,18 +1,14 @@
 ---
-title: 安装VCSA管理系统
-slug: vcsa-console
+title: 【VMware】安装VCSA管理系统
+slug: Install-VCSA-management-system
 date: 2025-3-19
 authors: mlishu
 tags: [云计算, VMware]
 keywords: [cloud-computer, VMware]
 ---
-安装VCSA管理系统
-
-<!-- truncate -->
-
 ## 准备操作
 
-由于VCSA主机安装在EXSI主机上，因此要求[安装EXSI底层系统](/blog/vm-exsi-8)
+由于 `VCSA控制器`必须安装在EXSI主机上，因此必须[安装EXSI底层系统](/blog/Install-EXSI8-underlying-system)
 
 安装版本：`VMware-VCSA-all-8.0.0-20519528.iso`
 

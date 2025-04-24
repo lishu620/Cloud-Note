@@ -6,13 +6,7 @@ authors: mlishu
 tags: [Windows]
 keywords: [Windows]
 ---
-配置Windows Server 2022
-
-<!-- truncate -->
-
-系统版本：`Windows Server 2022`
-
-配置安装 `Windows Server`的完整流程
+> 系统版本：`Windows Server 2022`
 
 ### 1.配置管理员密码
 
