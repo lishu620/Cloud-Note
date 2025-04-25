@@ -38,8 +38,8 @@ keywords: [cloud-computer, Horizon]
 1. [搭建DNS/AD服务器](/blog/horizon-addns)
 2. [搭建主从SQL服务器](/blog/config-sql)
 3. [搭建composer服务器](/blog/horizon-composer)
-4. [搭建connection服务器](https://blog.csdn.net/little_startoo/article/details/133889653?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522d6253fa40332e30965c39084fea64209%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fblog.%2522%257D&request_id=d6253fa40332e30965c39084fea64209&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~blog~first_rank_ecpm_v1~rank_v31_ecpm-19-133889653-null-null.nonecase&utm_term=Horizon&spm=1018.2226.3001.4450)
-5. [搭建agent服务器](https://blog.csdn.net/little_startoo/article/details/133889713?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522d6253fa40332e30965c39084fea64209%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fblog.%2522%257D&request_id=d6253fa40332e30965c39084fea64209&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~blog~first_rank_ecpm_v1~rank_v31_ecpm-6-133889713-null-null.nonecase&utm_term=Horizon&spm=1018.2226.3001.4450)
+4. [搭建connection服务器](/blog/horizon-connection)
+5. [搭建agent云主机](/blog/horizon-agent)
 
 ## 主机配置
 
