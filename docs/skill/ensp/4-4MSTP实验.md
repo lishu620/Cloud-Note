@@ -28,14 +28,14 @@ undo terminal trapping
 ```
 vlan batch 2 3
 int g0/0/1
-vlan link-type trunk
-vlan trunk allow-pass vlan all
+port link-type trunk
+port trunk allow-pass vlan all
 int g0/0/2
-vlan link-type trunk
-vlan trunk allow-pass vlan all
+port link-type trunk
+port trunk allow-pass vlan all
 int g0/0/3
-vlan link-type trunk
-vlan trunk allow-pass vlan all
+port link-type trunk
+port trunk allow-pass vlan all
 int vlanif 2
 ip add 10.59.2.254 24
 q
@@ -56,14 +56,14 @@ stp instance 1 pri 4096
 ```
 vlan batch 2 3
 int g0/0/1
-vlan link-type trunk
-vlan trunk allow-pass vlan all
+port link-type trunk
+port trunk allow-pass vlan all
 int g0/0/2
-vlan link-type trunk
-vlan trunk allow-pass vlan all
+port link-type trunk
+port trunk allow-pass vlan all
 int g0/0/3
-vlan link-type trunk
-vlan trunk allow-pass vlan all
+port link-type trunk
+port trunk allow-pass vlan all
 int vlanif 3
 ip add 10.59.3.254 24
 q
@@ -146,5 +146,5 @@ ip add 10.59.3.253 24
 
 ```
 int vlanif 2
-ip add 10.59.2.254 24
+ip add 10.59.2.253 24
 ```
