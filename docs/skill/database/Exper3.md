@@ -1,6 +1,6 @@
 ---
 id: E3-Data-Query
-slug: Experiment-9-Data-Query
+slug: Experiment-3-Data-Query
 title: 实验三：数据查询
 date: 2025-5-6
 authors: m1ishu
