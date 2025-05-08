@@ -24,7 +24,7 @@ keywords: [数据库]
 
 ```
 -- Student表
-INSERT INTO Student (Sno, Sname, Ssex, Shirthday, Saddress, Sgrade, Smajor, Sdept) VALUES
+INSERT INTO Student (Sno, Sname, Sex, Sbirthday, Shometown, Sgrade, Smajor, Sdept) VALUES
 ('20201101001', '张明', '男', '2001-05-12', '北京', 2020, '计算机科学', 'CS'),
 ('20201101002', '李红', '女', '2001-08-23', '上海', 2020, '计算机科学', 'CS'),
 ('20201202001', '王强', '男', '2000-11-15', '广州', 2020, '软件工程', 'SE'),
@@ -35,15 +35,15 @@ INSERT INTO Student (Sno, Sname, Ssex, Shirthday, Saddress, Sgrade, Smajor, Sdep
 ('20211401002', '吴丽', '女', '2002-09-30', '重庆', 2021, '计算机科学', 'CS');
 
 -- SC表
-INSERT INTO Course (Cno, Cname, Cpno, Ctype, Chour, Ccredit, Cterm, Cabstract) VALUES
-('C006', '数据库原理', 'C003', '专业核心', 64, 4, 4, '数据库系统基本原理'),
-('C007', '操作系统', 'C002', '专业核心', 64, 4, 4, '操作系统原理与设计'),
+INSERT INTO Course (Cno, Cname, Cpno, Ctype, Chour, Ccredit, Csem, Cabstract) VALUES
+('C006', '数据库原理', 'C001', '专业核心', 64, 4, 4, '数据库系统基本原理'),
+('C007', '操作系统', 'C001', '专业核心', 64, 4, 4, '操作系统原理与设计'),
 ('C008', '算法分析', 'C003', '专业核心', 48, 3, 5, '算法设计与分析'),
-('C009', '人工智能', 'C006', '专业选修', 32, 2, 6, '人工智能基础'),
+('C009', '人工智能', 'C001', '专业选修', 32, 2, 6, '人工智能基础'),
 ('C010', '机器学习', 'C008', '专业选修', 48, 3, 7, '机器学习基础');
 
 -- Teacher表
-INSERT INTO Teacher (TID, Tname, Tsex, Tposition, Thirthday, Tworkdate, Tdept) VALUES
+INSERT INTO Teacher (TID, Tname, Tsex, Tposition, Tbirthday, Thiredate, Tdept) VALUES
 ('20181201', '张教授', '男', '教授', '1975-06-15', '2000-08-01', 'CS'),
 ('20181202', '李副教授', '女', '副教授', '1980-09-20', '2005-07-15', 'SE'),
 ('20191203', '王讲师', '男', '讲师', '1985-03-25', '2010-09-01', 'CH'),
