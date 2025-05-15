@@ -68,31 +68,32 @@ GRANT DELETE ON TC TO stu2;
 
 #### 以stu1用户登录测试
 
-```
+```sql
 -- 测试查询权限
 SELECT * FROM SC;
 SELECT * FROM Student;
 SELECT * FROM Course;
 
 -- 测试插入权限
-INSERT INTO SC VALUES ('S001', 'C001', 90);
-INSERT INTO Student VALUES ('S001', '张三', '男', 20, 'CS');
-INSERT INTO Course VALUES ('C001', '数据库', 4, 'CS');
+INSERT INTO SC VALUES ('20121323012', 'N001', 90);
+-- 该条目会插入失败，因为没有插入权限
+INSERT INTO Student VALUES ('20231323001', '张三', '男', '2003-04-06', '湖北', '2023', '网络工程', 'SE');
+INSERT INTO Course VALUES ('N003', '路由与交换', 'N001', '专业核心', 64, 4, 4, '');
 
 -- 测试更新权限
-UPDATE SC SET Grade = 85 WHERE Sno = 'S001' AND Cno = 'C001';
-UPDATE Student SET Sname = '李四' WHERE Sno = 'S001';
-UPDATE Course SET Credit = 3 WHERE Cno = 'C001';
+UPDATE SC SET Grade = 85 WHERE Sno = '20121323001' AND Cno = 'C001';
+UPDATE Student SET Sname = '何燕' WHERE Sno = '20121323087';
+UPDATE Course SET Ccredit = 3 WHERE Cno = 'C001';
 
 -- 测试删除权限
-DELETE FROM SC WHERE Sno = 'S001' AND Cno = 'C001';
-DELETE FROM Student WHERE Sno = 'S001';
-DELETE FROM Course WHERE Cno = 'C001';
+DELETE FROM SC WHERE Sno = '20121323001' AND Cno = 'C001';
+DELETE FROM Student WHERE Sno = '20121323001';
+DELETE FROM Course WHERE Cno = 'N002';
 ```
 
 #### 以stu2用户登录测试
 
-```
+```sql
 -- 测试查询权限
 SELECT * FROM SC;
 SELECT * FROM Student;
