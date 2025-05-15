@@ -15,7 +15,7 @@ keywords: [数据库]
 
 ### 1. 创建登录账户和数据库用户
 
-```
+```sql
 -- 使用sa账户登录后执行以下操作
 
 -- 创建登录账户
@@ -34,7 +34,7 @@ CREATE USER stu3 FOR LOGIN login3;
 
 #### 为stu1用户授权
 
-```
+```sql
 -- 授予stu1对SC表的SELECT和INSERT权限
 GRANT SELECT, INSERT ON SC TO stu1;
 
@@ -47,7 +47,7 @@ GRANT SELECT, UPDATE, INSERT, DELETE ON Course TO stu1;
 
 #### 为stu2用户授权
 
-```
+```sql
 -- 授予stu2对SC表的SELECT权限
 GRANT SELECT ON SC TO stu2;
 
