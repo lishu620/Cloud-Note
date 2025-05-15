@@ -7,10 +7,6 @@ authors: m1ishu
 tags: [database]
 keywords: [数据库]
 ---
-# SQL Server 用户权限管理实验指南
-
-根据实验要求，我将为您提供完整的SQL Server用户权限管理实验步骤和SQL代码。
-
 ## 实验准备
 
 首先确保您已安装SQL Server并拥有sa账户权限，同时已创建教务数据库Educ及相关表(Student, SC, Course, Teacher, TC)。
