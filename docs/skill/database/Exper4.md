@@ -114,7 +114,7 @@ DELETE FROM TC WHERE Tno = 'T001' AND Cno = 'C001';
 
 ### 4. 收回权限
 
-```
+```sql
 -- 使用sa账户登录收回权限
 USE Educ;
 
@@ -132,7 +132,7 @@ REVOKE DELETE ON Course FROM stu1;
 
 以stu1用户登录测试：
 
-```
+```sql
 -- 测试查询SC表 (应该失败，SELECT权限已被收回)
 SELECT * FROM SC;
 
@@ -148,7 +148,7 @@ DELETE FROM Course WHERE Cno = 'C001';
 
 ### 6. 删除用户和登录账户
 
-```
+```sql
 -- 使用sa账户登录删除用户和登录
 USE Educ;
 
