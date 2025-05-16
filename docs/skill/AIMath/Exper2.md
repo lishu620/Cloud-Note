@@ -1,10 +1,17 @@
 ---
-
-
+id: AIM2-Recommendation-system-algorithm
+slug: Recommendation-system-algorithm
+title: 推荐系统算法
+date: 2025-5-16
+authors: m1ishu
+tags: [AIMath]
+keywords: [AIMath]
 ---
-<!-- Persion -->
+人工智能数学实验2：推荐系统算法
 
-## 文件列表
+<!-- truncate -->
+
+文件列表
 
 ![1747365496046](image/Exper2/1747365496046.png)
 
