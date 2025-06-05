@@ -1,5 +1,5 @@
 ---
-id: Experiment-4-data-integrity
+id: Experiment-5-data-integrity
 slug: data-integrity
 title: 实验五：数据完整性
 date: 2025-5-21
@@ -7,7 +7,6 @@ authors: m1ishu
 tags: [database]
 keywords: [数据库]
 ---
-
 ## 实验目的
 
 1. 掌握完整性约束机制
