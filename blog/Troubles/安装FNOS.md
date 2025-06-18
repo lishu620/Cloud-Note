@@ -8,6 +8,8 @@ keywords: [Troubles, FnOS]
 ---
 <!-- truncate -->
 
+点击跳转[官方文档](https://help.fnnas.com/articles/fnosV1/start/install-os.md)
+
 ## 1. 下载安装镜像
 
 前往 [飞牛私有云官网](https://www.fnnas.com/download?key=fnos) 下载最新的系统安装 iso 镜像。
