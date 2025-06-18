@@ -6,6 +6,10 @@ authors: mlishu
 tags: [璃殊折腾记, VPS]
 keywords: [Troubles, VPS]
 ---
+```
+<!-- truncate -->
+```
+
 ## 安装Bitwarden插件
 
 Bitwarden可以在谷歌浏览器等上使用
