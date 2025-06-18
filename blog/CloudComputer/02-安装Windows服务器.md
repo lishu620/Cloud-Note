@@ -6,6 +6,8 @@ authors: mlishu
 tags: [Windows]
 keywords: [Windows]
 ---
+<!-- truncate -->
+
 > 系统版本：`Windows Server 2022`
 
 ### 1.配置管理员密码

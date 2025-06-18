@@ -6,7 +6,9 @@ authors: mlishu
 tags: [云计算, VMware]
 keywords: [cloud-computer, VMware]
 ---
-## 准备操作
+<!-- truncate -->
+
+准备操作
 
 由于 `VCSA控制器`必须安装在EXSI主机上，因此必须[安装EXSI底层系统](/blog/Install-EXSI8-underlying-system)
 

@@ -6,7 +6,9 @@ authors: mlishu
 tags: [云计算, VMware]
 keywords: [cloud-computer, VMware]
 ---
-## 准备工作
+<!-- truncate -->
+
+准备工作
 
 EXSI版本：`VMware-VMvisor-Installer-8.0U2-22380479.x86_64.iso`
 

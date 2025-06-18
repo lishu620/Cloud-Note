@@ -6,7 +6,9 @@ authors: mlishu
 tags: [VMware, Windows]
 keywords: [VMware, Windows]
 ---
-## 提示
+<!-- truncate -->
+
+提示
 
 因为我需要使用WindowsAD统一管理所有的账号，因此选择将VCSA也加入WindowsAD域控中进行统一管理
 

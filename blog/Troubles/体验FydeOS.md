@@ -6,7 +6,9 @@ authors: mlishu
 tags: [璃殊折腾记]
 keywords: [Troubles]
 ---
-## 安装系统
+<!-- truncate -->
+
+安装系统
 
 在完成系统下载后，进入VMware，选择导入ova包
 
