@@ -1,5 +1,5 @@
 ---
-id: AIM2-Recommendation-system-algorithm
+id: AIM3-Recommendation-system-algorithm
 slug: Recommendation-system-algorithm
 title: 推荐系统算法
 date: 2025-5-16
@@ -66,23 +66,23 @@ class NBClassify:
         # 计算各类别的先验概率
         total_samples = len(y_train)
         class_counts = y_train.value_counts().to_dict()
-      
+    
         for cls, count in class_counts.items():
             self.tagProbility[cls] = count / total_samples
-      
+    
         # 计算各类别下各个特征的条件概率
         for cls in class_counts.keys():
             # 获取当前类别的所有样本
             cls_samples = X_train[y_train == cls]
-          
+        
             # 存储当前类别的特征概率
             self.featuresProbility[cls] = defaultdict(dict)
-          
+        
             # 对每个特征计算条件概率
             for feature in X_train.columns:
                 feature_counts = cls_samples[feature].value_counts().to_dict()
                 total_feature = sum(feature_counts.values())
-              
+            
                 # 使用拉普拉斯平滑处理
                 unique_values = X_train[feature].unique()
                 for value in unique_values:
@@ -91,20 +91,20 @@ class NBClassify:
   
     def classify(self, X_test):
         predictions = []
-      
+    
         for _, sample in X_test.iterrows():
             max_prob = -1
             predicted_class = None
-          
+        
             # 对每个类别计算后验概率
             for cls in self.tagProbility.keys():
                 # 初始化为类别的先验概率
                 prob = np.log(self.tagProbility[cls])
-              
+            
                 # 累加各个特征的条件概率的对数
                 for feature in X_test.columns:
                     feature_value = sample[feature]
-                  
+                
                     # 如果特征值在训练集中未出现过，使用拉普拉斯平滑的最小概率
                     if feature_value in self.featuresProbility[cls][feature]:
                         prob += np.log(self.featuresProbility[cls][feature][feature_value])
@@ -112,14 +112,14 @@ class NBClassify:
                         # 使用一个很小的概率值，避免零概率问题
                         min_prob = 1e-10
                         prob += np.log(min_prob)
-              
+            
                 # 选择概率最大的类别
                 if prob > max_prob:
                     max_prob = prob
                     predicted_class = cls
-          
+        
             predictions.append(predicted_class)
-      
+    
         return predictions
   
     def accuracy(self, y_true, y_pred):
