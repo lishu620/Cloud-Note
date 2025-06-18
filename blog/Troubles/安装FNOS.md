@@ -1,15 +1,12 @@
 ---
-title: Nas安装:飞牛OS
-slug: Nas-Install
+title: 安装FN-NAS-OS
+slug: Install-FNNASOS
 date: 2025-3-13
 authors: mlishu
-tags: [FnOS]
-keywords: [FnOS]
+tags: [璃殊折腾记, FnOS]
+keywords: [Troubles, FnOS]
 ---
-安装FnOS
-
 <!-- truncate -->
-
 
 ## 1. 下载安装镜像
 
