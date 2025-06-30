@@ -108,7 +108,7 @@ const sidebars: SidebarsConfig = {
       ]
     },
     {
-      label: '路由与交换',
+      label: '路由与交换技术',
       type: 'category',
       link: { type: 'generated-index' },
       items: [

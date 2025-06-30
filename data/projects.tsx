@@ -15,7 +15,7 @@ export const projects: Project[] = [
   //   title: '便民服务',
   //   description: '🌱 一个便民服务的网站',
   //   preview: '/img/project/service.png',
-  //   website: 'https://service.mlishu.cn',
+  //   website: 'https://service.mlishu.xyz',
   //   source: 'https://github.com/mlishu/service',
   //   tags: ['opensource', 'personal'],
   //   type: 'toy',

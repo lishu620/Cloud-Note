@@ -92,7 +92,7 @@ AI 写代码，用过都说好。
 
 ### Thunder Client
 
-![image-20221003223247386](https://img.mlishu.cn/image-20221003223247386.png)
+![image-20221003223247386](https://img.mlishu.xyz/image-20221003223247386.png)
 
 要想在 Vscode 拥有 Postman 或者 ApiPost 的接口调试工具，不妨使用这个插件，支持分类，环境变量，如果仅作为个人测试，不要求接口分享，这个插件就足以满足大部分日常 api 接口调试。
 
@@ -102,7 +102,7 @@ AI 写代码，用过都说好。
 
 ### Project Manager
 
-![image-20220610013640476](https://img.mlishu.cn/image-20220610013640476.png)
+![image-20220610013640476](https://img.mlishu.xyz/image-20220610013640476.png)
 
 对于一些常用项目而言，可以通过该插件添加到 Vscode 中，直接在左侧项目管理器中便可直接使用 vscode 打开项目工程。
 
@@ -222,7 +222,7 @@ AI 写代码，用过都说好。
 
 相信你在使用 `vscode`中，肯定有过这样的问题，明明引入本地模块，但是有的时候就是没有对应的代码提示。如图
 
-![image-20200901212906150](https://img.mlishu.cn/image-20200901212906150.png)
+![image-20200901212906150](https://img.mlishu.xyz/image-20200901212906150.png)
 
 像导入本地模块 `fs`，却没有代码提示，想要有本地模块代码提示，最快捷的方法就是通过下面一行代码
 
@@ -240,7 +240,7 @@ npm init -y
 
 然后在目录下你就能看到 `node_modules`，在这个文件夹下有一个 `@types`，这个目录就是存放你以后代码提示的目录，现在 `@types`里面有 `node`这个文件夹，也就是我们刚刚这个命令 `npm install @types/node`后的 node，现在试试看确实是有代码提示了，并且还有带星推荐。
 
-![image-20200901214223439](https://img.mlishu.cn/image-20200901214223439.png)
+![image-20200901214223439](https://img.mlishu.xyz/image-20200901214223439.png)
 
 现在，我的代码里有 `jquery`代码，但是本地已有 `jquery.js`文件，又不想安装 `jquery`的模块，但是又要 `jquery`的代码提示，这时候你就可以输入下面代码，就能看到对应的代码。
 
@@ -248,19 +248,19 @@ npm init -y
 npm install @types/jquery
 ```
 
-![image-20200901214906038](https://img.mlishu.cn/image-20200901214906038.png)
+![image-20200901214906038](https://img.mlishu.xyz/image-20200901214906038.png)
 
 在比如有的库安装会没带代码提示，这时候就用上面的方法同样也可以有代码提示，例如 `express`
 
 `express`相关安装操作我就不赘述了，先看图片
 
-![image-20200901215612611](https://img.mlishu.cn/image-20200901215612611.png)
+![image-20200901215612611](https://img.mlishu.xyz/image-20200901215612611.png)
 
 这 app 代码提示怎么全是 js 自带的代码提示。
 
 然后在看 `node_modules\@types`下，怎么只有我刚刚安装的那几个？
 
-![image-20200901215826419](https://img.mlishu.cn/image-20200901215826419.png)
+![image-20200901215826419](https://img.mlishu.xyz/image-20200901215826419.png)
 
 不妨试试
 
@@ -270,11 +270,11 @@ npm install @types/express
 
 这时候 `node_modules\@types`下，就多了几个文件夹，其中一个名为 express，那么现在代码提示肯定有了。
 
-![image-20200901220225659](https://img.mlishu.cn/image-20200901220225659.png)
+![image-20200901220225659](https://img.mlishu.xyz/image-20200901220225659.png)
 
 果不其然，`vscode`里也有正常的代码提示了
 
-![image-20200901220329481](https://img.mlishu.cn/image-20200901220329481.png)
+![image-20200901220329481](https://img.mlishu.xyz/image-20200901220329481.png)
 
 :::info
 
@@ -311,7 +311,7 @@ npm install @types/express
 
 上则代码的意思就是输入 prefix 内的 `syso` 然后按下 tab 键就会把 body 内的 `System.out.println($1);`代码提示显示出来，其中 `$1`为光标位置，如图
 
-![](https://img.mlishu.cn/syso.gif)
+![](https://img.mlishu.xyz/syso.gif)
 
 但一般很少用到代码块，很多现成的插件就可以完全满足对应代码补全的需求，但有时候会方便很多。
 

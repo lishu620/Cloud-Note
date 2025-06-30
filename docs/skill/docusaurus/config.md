@@ -14,7 +14,7 @@ authors: mlishu
 ```typescript title='docusaurus.config.ts' icon='logos:docusaurus'
 const config: Config = {
   title: '璃殊的小站',
-  url: 'https://mlishu.cn',
+  url: 'https://mlishu.xyz',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'mlishu',
