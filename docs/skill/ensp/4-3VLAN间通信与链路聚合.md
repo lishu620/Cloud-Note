@@ -1,7 +1,7 @@
 ---
 id: 4-3-Inter-VLAN-communication-and-link-aggregation
 slug: Inter-VLAN-communication-and-link-aggregation
-title: 4-3：VLAN间通信与链路聚合
+title: 实验4-3：VLAN间通信与链路聚合
 date: 2025-4-10
 authors: m1ishu
 tags: [eNSP]

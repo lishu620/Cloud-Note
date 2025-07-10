@@ -1,7 +1,7 @@
 ---
-id: 5-1-ACL-experiment
+id: 5-ACL-experiment
 slug: ACL-experiment
-title: 5-1：ACL实验
+title: 实验5：ACL
 date: 2025-4-24
 authors: m1ishu
 tags: [eNSP]

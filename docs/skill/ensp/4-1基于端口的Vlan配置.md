@@ -1,7 +1,7 @@
 ---
 id: 4-1-port-vlan
 slug: port-vlan
-title: 4-1：基于端口的Vlan配置
+title: 实验4-1：基于端口的Vlan配置
 date: 2025-3-27
 authors: m1ishu
 tags: [eNSP]

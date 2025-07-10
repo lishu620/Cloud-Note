@@ -1,5 +1,5 @@
 ---
-id: 6-1-Configuration-based-on-Easy-IP
+id: 6-2-Configuration-based-on-Easy-IP
 slug: Configuration-based-on-Easy-IP
 title: 6-2：基于Easy-IP的配置
 date: 2025-4-28
@@ -37,10 +37,10 @@ nat outbound 2000
   NAT Session Table Information:
 
      Protocol          : TCP(6)
-     SrcAddr  Port Vpn : 192.168.1.1     3780                               
-     DestAddr Port Vpn : 10.59.1.254     5888                               
+     SrcAddr  Port Vpn : 192.168.1.1     3780                             
+     DestAddr Port Vpn : 10.59.1.254     5888                             
      NAT-Info
-       New SrcAddr     : 10.59.1.1    
+       New SrcAddr     : 10.59.1.1  
        New SrcPort     : ----
        New DestAddr    : ----
        New DestPort    : ----

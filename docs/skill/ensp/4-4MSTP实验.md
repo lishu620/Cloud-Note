@@ -1,7 +1,7 @@
 ---
 id: 4-4-MSTP-experiment
 slug: MSTP-experiment
-title: 4-4：MSTP实验
+title: 实验4-4：MSTP
 date: 2025-4-18
 authors: m1ishu
 tags: [eNSP]
