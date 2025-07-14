@@ -14,6 +14,9 @@ keywords: [eNSP]
 * 识别IP路由表与FIB表，并能分析其在转发流程中的作用
 * 描述并分析路由引入原理及其典型使用场景
 
+  > [学习链接](/docs/skill/HCIP/Network-fundamentals-and-equipment-architecture)
+  >
+
 ---
 
 ## 二、动态路由协议
