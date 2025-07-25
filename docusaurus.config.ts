@@ -6,7 +6,7 @@ import type { GiscusConfig } from './src/components/Comment'
 
 const config: Config = {
   title: '璃殊の云笔记',
-  url: 'https://note.mlishu.top',
+  url: 'https://note.mlishu.xyz',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'mlishu',
@@ -29,11 +29,11 @@ const config: Config = {
       },
       {
         name: 'keywords',
-        content: 'blog, javascript, typescript, node, react, vue, web',
+        content: 'blog, javascript, node, R&S, vue, web',
       },
       {
         name: 'keywords',
-        content: '编程爱好者, Web开发者, 写过爬虫, 学过逆向, 主攻ts全栈',
+        content: '网络爱好者, 写过爬虫, 学过逆向, 主攻网络全栈',
       },
     ],
     docs: {

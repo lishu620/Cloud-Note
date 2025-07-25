@@ -1,5 +1,5 @@
 ---
-id: 14-BGP-Experiment
+id: BGP-Experiment
 slug: BGP-Experiment
 title: BGP实验
 date: 2025-7-10
@@ -9,7 +9,7 @@ keywords: [eNSP]
 ---
 ## 实验拓扑
 
-![1752109341164](images/blog/14.BGP路由实验/1752109341164.png)
+![1752109341164](image/14.BGP路由实验/1752109341164.png)
 
 ## 配置代码
 
