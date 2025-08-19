@@ -172,6 +172,21 @@ const config: Config = {
     '@docusaurus/plugin-ideal-image',
     // ['docusaurus-plugin-baidu-tongji', { token: 'c9a3849aa75f9c4a4e65f846cd1a5155' }],
     [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      {
+        hashed: true,
+        language: ["en", "zh"],
+        highlightSearchTermsOnTargetPage: true,
+        explicitSearchResultPath: true,
+        indexDocs: true,
+        indexBlog: true,
+        indexPages: true,
+        docsRouteBasePath: '/',
+        removeDefaultStopWordFilter: true,
+        removeDefaultStemmer: true,
+      },
+    ],
+    [
       '@docusaurus/plugin-pwa',
       {
         debug: process.env.NODE_ENV === 'development',
@@ -233,23 +248,23 @@ const config: Config = {
                 tagName: 'script',
                 innerHTML: `
     (${function () {
-      console.log(
-        `%c Kz Blog %c https://github.com/mlishu/blog`,
-        'color: #fff; margin: 1em 0; padding: 5px 0; background: #12affa;',
-        'margin: 1em 0; padding: 5px 0; background: #efefef;',
-      )
+                    console.log(
+                      `%c Kz Blog %c https://github.com/mlishu/blog`,
+                      'color: #fff; margin: 1em 0; padding: 5px 0; background: #12affa;',
+                      'margin: 1em 0; padding: 5px 0; background: #efefef;',
+                    )
 
-      const motto = `
+                    const motto = `
 This Webisite Powered By Kz Blog.
 Written by Docusaurus, Coding with Love.
 --------
 Love what you do and do what you love.
 `
 
-      if (document.firstChild?.nodeType !== Node.COMMENT_NODE) {
-        document.prepend(document.createComment(motto))
-      }
-    }.toString()})();`,
+                    if (document.firstChild?.nodeType !== Node.COMMENT_NODE) {
+                      document.prepend(document.createComment(motto))
+                    }
+                  }.toString()})();`,
               },
             ],
           }
