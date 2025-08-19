@@ -187,18 +187,6 @@ const config: Config = {
       },
     ],
     [
-      '@docusaurus/plugin-pwa',
-      {
-        debug: process.env.NODE_ENV === 'development',
-        offlineModeActivationStrategies: ['appInstalled', 'standalone', 'queryString'],
-        pwaHead: [
-          { tagName: 'link', rel: 'icon', href: '/img/logo.png' },
-          { tagName: 'link', rel: 'manifest', href: '/manifest.json' },
-          { tagName: 'meta', name: 'theme-color', content: '#12affa' },
-        ],
-      },
-    ],
-    [
       'vercel-analytics',
       {
         debug: process.env.NODE_ENV === 'development',
